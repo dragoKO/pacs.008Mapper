@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Created with Liquid Technologies Online Tools 1.0 (https://www.liquid-technologies.com) -->
+<Document xmlns="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.12" xsi:schemaLocation="urn:iso:std:iso:20022:tech:xsd:pacs.008.001.12 schema.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+    <FIToFICstmrCdtTrf>
+        <GrpHdr>
+            <MsgId>string</MsgId>
+            <CreDtTm>1972-03-15T21:53:22.29</CreDtTm>
+            <NbOfTxs>34</NbOfTxs>
+            <SttlmInf>
+                <SttlmMtd>INGA</SttlmMtd>
+            </SttlmInf>
+        </GrpHdr>
+        <CdtTrfTxInf>
+            <PmtId>
+                <EndToEndId>string</EndToEndId>
+            </PmtId>
+            <IntrBkSttlmAmt Ccy="FNL">102850.23491</IntrBkSttlmAmt>
+            <ChrgBr>SLEV</ChrgBr>
+            <Dbtr />
+            <DbtrAgt>
+                <FinInstnId />
+            </DbtrAgt>
+            <CdtrAgt>
+                <FinInstnId />
+            </CdtrAgt>
+            <Cdtr />
+        </CdtTrfTxInf>
+        <CdtTrfTxInf>
+            <PmtId>
+                <EndToEndId>string</EndToEndId>
+            </PmtId>
+            <IntrBkSttlmAmt Ccy="FHQ">9283690.23491</IntrBkSttlmAmt>
+            <ChrgBr>CRED</ChrgBr>
+            <Dbtr />
+            <DbtrAgt>
+                <FinInstnId />
+            </DbtrAgt>
+            <CdtrAgt>
+                <FinInstnId />
+            </CdtrAgt>
+            <Cdtr />
+        </CdtTrfTxInf>
+        <CdtTrfTxInf>
+            <PmtId>
+                <EndToEndId>string</EndToEndId>
+            </PmtId>
+            <IntrBkSttlmAmt Ccy="YPV">5258400.23491</IntrBkSttlmAmt>
+            <ChrgBr>DEBT</ChrgBr>
+            <Dbtr />
+            <DbtrAgt>
+                <FinInstnId />
+            </DbtrAgt>
+            <CdtrAgt>
+                <FinInstnId />
+            </CdtrAgt>
+            <Cdtr />
+        </CdtTrfTxInf>
+        <CdtTrfTxInf>
+            <PmtId>
+                <EndToEndId>string</EndToEndId>
+            </PmtId>
+            <IntrBkSttlmAmt Ccy="CFT">6448050.23491</IntrBkSttlmAmt>
+            <ChrgBr>CRED</ChrgBr>
+            <Dbtr />
+            <DbtrAgt>
+                <FinInstnId />
+            </DbtrAgt>
+            <CdtrAgt>
+                <FinInstnId />
+            </CdtrAgt>
+            <Cdtr />
+        </CdtTrfTxInf>
+    </FIToFICstmrCdtTrf>
+</Document>
